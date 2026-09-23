@@ -20,6 +20,7 @@ export default class CheckoutPage extends BasePage{
         }
     async continueClick(){
         await this.continueButton.click();
+        
     }
 
 

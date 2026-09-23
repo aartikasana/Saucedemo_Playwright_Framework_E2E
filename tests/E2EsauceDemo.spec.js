@@ -47,6 +47,7 @@ console.log('Product Price',
 
     // CartPage
     const cartPage=new CartPage(page);
+    
     //5. Count of Product
     await cartPage.productsCount();
     await cartPage.isProductCount();
