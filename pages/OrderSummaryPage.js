@@ -4,8 +4,7 @@ import {test, expect} from '@playwright/test';
 
 export default class OrderSummaryPage extends BasePage{
     constructor(page){
-        super(page);
-    
+        super(page);    
         this.itemPrices=page.locator('.inventory_item_price');
         this.tax=page.locator('.summary_tax_label');
         this.totalPrice=page.locator('.summary_total_label');
